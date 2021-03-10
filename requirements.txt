@@ -26,6 +26,8 @@ identify==2.1.1
     # via pre-commit
 idna==2.10
     # via requests
+lxml==4.6.2
+    # via -r requirements.in
 mccabe==0.6.1
     # via flake8
 nodeenv==1.5.0
