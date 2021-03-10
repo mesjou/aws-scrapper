@@ -1,7 +1,5 @@
 pandas
-psycopg2
 pre-commit
 requests
 bs4
-lxml
 flake8

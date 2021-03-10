@@ -26,8 +26,6 @@ identify==2.1.1
     # via pre-commit
 idna==2.10
     # via requests
-lxml==4.6.2
-    # via -r requirements.in
 mccabe==0.6.1
     # via flake8
 nodeenv==1.5.0
@@ -37,8 +35,6 @@ numpy==1.20.1
 pandas==1.2.3
     # via -r requirements.in
 pre-commit==2.11.0
-    # via -r requirements.in
-psycopg2==2.8.6
     # via -r requirements.in
 pycodestyle==2.6.0
     # via flake8
