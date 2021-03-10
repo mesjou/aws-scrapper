@@ -1,3 +1,4 @@
+import os.path as path
 from datetime import datetime
 
 import pandas as pd
@@ -24,8 +25,12 @@ def search_product_list(tracker_path, result_path):
     -------
     None
     """
+    if path.exists(result_path):
+        search_hist = pd.read_csv(result_path, sep=";")
+    else:
+        columns = ["date", "code", "url", "title", "price", "stock", "review_score", "review_count"]
+        search_hist = pd.DataFrame(columns=columns)
     prod_tracker = pd.read_csv(tracker_path, sep=";")
-    search_hist = pd.read_csv(result_path, sep=";")
 
     for row in prod_tracker.itertuples():
         search_hist = search_hist.append(scrape_infos(row.url, row.code, row.Index), sort=False)

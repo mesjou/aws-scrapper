@@ -1,23 +1,27 @@
-# Amazon Scraper tool
+# Project Title
 
-Simple function that will get product prices and other information from product URLs provided in a csv file.
+A simple scrapper used for getting Amazon prices.
 
-Fetches prices from European and American stores.
+## Summary
+
+  - [Installing](#installing)
+  - [Getting Started](#getting-started)
+  - [Acknowledgments](#acknowledgments)
+
+## Installing
+
+After cloning install a virtual environment with ```venv``` and name ```venv```.
+Then run ```./refresh-requirements.sh```.
+Environment should have all required packages installed and also precommit hook is set up.
 
 
 ## Getting Started
 
-Once you add a few URL's with the products you want to follow, Amazon_Scraper.py will take care of the rest.
+Search for your desired amazon article and copy url to csv file at ```src/tracker/tracker.csv```.
+Also remember to add a code to identify the product.
+Now your set up to scrape by executing ```scraper.py```.
 
-Make sure to use this folder structure to avoid issues with file paths.
+## Acknowledgments
 
-Make sure to read the article where I provide a basic overview.
-
-
-## Prerequisites
-
-You might need to pip install xlrd because we work with excel also. Or you can change the output to csv as well.
-
-BeautifulSoup, requests, pandas, the usual!
-
-The article with the project details can be found here: https://towardsdatascience.com/scraping-multiple-amazon-stores-with-python-5eab811453a8
+This scrapper is inspired by the work of Fábio Neves and his article on medium
+https://towardsdatascience.com/scraping-multiple-amazon-stores-with-python-5eab811453a8
