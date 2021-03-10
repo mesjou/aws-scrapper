@@ -1,5 +1,3 @@
-date,code,url,title,price,buy_below,review_score,review_count,stock
-2021-03-10 11:03,nikon_24_120_es,https://www.amazon.de/-/en/VOA060AE-Z-6II-Casing/dp/B08L5MP8HB/ref=sr_1_3?crid=HSEQHQDCBJO5&dchild=1&keywords=nikon+z6&qid=1615365290&sprefix=Nikon+%2Caps%2C192&sr=8-3,Z 6II Casing,2199.0,,4.8,24,Available
-2021-03-10 11:16,nikon_24_120_es,https://www.amazon.de/-/en/VOA060AE-Z-6II-Casing/dp/B08L5MP8HB/ref=sr_1_3?crid=HSEQHQDCBJO5&dchild=1&keywords=nikon+z6&qid=1615365290&sprefix=Nikon+%2Caps%2C192&sr=8-3,Z 6II Casing,2199.0,,4.8,24,Available
-2021-03-10 11:22,nikon_24_120_es,https://www.amazon.de/-/en/VOA060AE-Z-6II-Casing/dp/B08L5MP8HB/ref=sr_1_3?crid=HSEQHQDCBJO5&dchild=1&keywords=nikon+z6&qid=1615365290&sprefix=Nikon+%2Caps%2C192&sr=8-3,Z 6II Casing,2199.0,,4.8,24,Available
-2021-03-10 11:22,hairdryer,https://www.amazon.de/-/en/Philips-HP8232-Hair-Dryer-2200/dp/B00M469LR6?ref_=Oct_DLandingS_D_159bf1fb_62&smid=A3JWKAKR8XB7XF,"Philips HP8232/00 Ion Hair Dryer, 2200 W",,,,,Available
+date;code;url;title;price;review_score;review_count;stock
+10.03.21 12:34;nikon_24_120_es;https://www.amazon.de/-/en/VOA060AE-Z-6II-Casing/dp/B08L5MP8HB/ref=sr_1_3?crid=HSEQHQDCBJO5&dchild=1&keywords=nikon+z6&qid=1615365290&sprefix=Nikon+%2Caps%2C192&sr=8-3;Z 6II Casing;2199.0;04. Aug;24;Available
+10.03.21 12:34;hairdryer;https://www.amazon.de/-/en/Philips-HP8232-Hair-Dryer-2200/dp/B00M469LR6?ref_=Oct_DLandingS_D_159bf1fb_62&smid=A3JWKAKR8XB7XF;Philips HP8232/00 Ion Hair Dryer, 2200 W;;04. May;;Available
