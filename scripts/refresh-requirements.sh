@@ -18,3 +18,4 @@ pip3 install -r requirements.txt
 
 # activate precommit hooks
 pre-commit install
+pre-commit autoupdate
